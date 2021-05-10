@@ -1,0 +1,106 @@
+.container {
+    background-color: grey;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.container_green {
+    width: 375px;
+    height: 812px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color:white;
+    display: inline-block;
+}
+.container_red {
+    width: 375px;
+    height: 812px;
+    margin-top: 10px;
+    margin-left: 300px; 
+    /* margin: 10px 100px 200px 100px; */
+    background-color: white;
+    display: inline-block;
+}
+.green_status_bar {
+    width: 375px;
+    height: 44px;
+    /* background-color: violet; */
+    display: flex;
+}
+.green_status_bar_time {
+    width: 54px;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.green_status_bar_img {
+    width: 100px;
+    height: 44px;
+    margin-left: 230px;
+}
+.red_status_bar {
+    width: 375px;
+    height: 44px;
+    /* background-color: violet; */
+    display: flex;
+}
+.red_status_bar_time {
+    width: 54px;
+    height: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.red_status_bar_img {
+    width: 100px;
+    height: 44px;
+    margin-left: 230px;
+}
+.red_circle {
+    width: 330px;
+    height: 330px;
+    /* margin: 25px 25px ; */
+}
+/* .red_circle img {
+    width: 330px;
+    height: 330px;
+} */
+.green_circle_img {
+    margin-top: 100px;
+    margin-left: 20px;
+    width: 330px;
+    height: 330px;
+}
+.img_tik {
+    margin: 50px 50px;
+    width: 100px;
+    height: 100px;
+}
+.green_action_sheet {
+    width: 375px;
+    height: 497px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    /* background-color: turquoise; */
+}
+.red_action_sheet {
+    width: 375px;
+    height: 497px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    /* background-color: turquoise; */
+}
+p {
+    font-size: 15px;
+}
+.green_button {
+    width: 210px;
+    height: 56px;
+    margin-left: 60px;
+    border-radius: 25px;
+    background-color: green;
+    padding-top: 10px;
+    text-align: center;
+}
